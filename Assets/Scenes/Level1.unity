@@ -4972,7 +4972,6 @@ GameObject:
   - component: {fileID: 1134781744}
   - component: {fileID: 1134781743}
   - component: {fileID: 1134781742}
-  - component: {fileID: 1134781746}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5062,20 +5061,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1134781746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134781741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9385b4a147f5288438680c38c6d221f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 381562440}
-  car: {fileID: 2101064179}
 --- !u!1001 &1138014365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8229,17 +8214,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4142617539713516883, guid: eff713871ec3a874fbc433d6cef5a096, type: 3}
   m_PrefabInstance: {fileID: 4142617540332811427}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2101064179 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4142617539713516880, guid: eff713871ec3a874fbc433d6cef5a096, type: 3}
-  m_PrefabInstance: {fileID: 4142617540332811427}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101064176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0df5217e2a0e0d4f9246d0ad17feb37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2127678495
 GameObject:
   m_ObjectHideFlags: 0
